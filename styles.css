@@ -1,0 +1,203 @@
+/* تنسيق الجسم العام للموقع */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* تنسيق الرأس (Header) */
+header {
+    background-color: #004aad; /* لون الخلفية */
+    color: white; /* لون النص */
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* تنسيق القائمة الرئيسية */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #004aad; /* لون خلفية القائمة */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* لون النص في الروابط */
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease; /* تأثير التغيير عند التمرير */
+}
+
+nav ul li a:hover {
+    background-color: #00307f; /* لون خلفية عند التمرير */
+    border-radius: 5px;
+}
+
+/* تنسيق أقسام المحتوى */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white; /* خلفية بيضاء للأقسام */
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ظل خفيف حول الأقسام */
+}
+
+/* تنسيق العناوين */
+h1, h2 {
+    color: #004aad; /* لون العناوين */
+    text-align: center;
+}
+
+/* تنسيق الفقرات */
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* تنسيق التذييل (Footer) */
+footer {
+    background-color: #004aad; /* لون خلفية التذييل */
+    color: white; /* لون النص */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* إضافة تنسيق لزر التواصل */
+button {
+    background-color: #004aad; /* لون خلفية الزر */
+    color: white; /* لون النص في الزر */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00307f; /* لون الخلفية عند التمرير على الزر */
+}
+
+#contact {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 20px; /* Optional: Adds padding for better spacing */
+    text-align: center; /* Centers text inside the section */
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label,
+#contact input,
+#contact textarea,
+#contact button {
+    margin: 10px 0; /* Adds space between form elements */
+}
+
+#contact p {
+    margin: 10px 0; /* Adds space between paragraphs */
+}
+
+#contact .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adds space above the contact info */
+}
+
+
+/* تنسيق قسم التواصل */
+#contact {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px; /* زيادة الحشو لراحة المستخدم */
+    background-color: #f9f9f9; /* لون خلفية فاتح للقسم */
+    border-radius: 10px; /* زوايا مدورة للقسم */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف لإضافة عمق */
+    text-align: center; /* توسيط النصوص داخل القسم */
+}
+
+#contact h2 {
+    font-size: 2.5em; /* حجم أكبر للعنوان */
+    color: #004aad; /* لون العنوان */
+    margin-bottom: 20px; /* مسافة أسفل العنوان */
+}
+
+#contact p {
+    font-size: 1.2em; /* حجم أكبر للفقرات */
+    color: #555; /* لون نص الفقرات */
+    margin-bottom: 20px; /* مسافة أسفل الفقرات */
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px; /* أقصى عرض للنموذج */
+    margin: 0 auto; /* توسيط النموذج */
+}
+
+#contact label {
+    font-weight: bold; /* خطوط عريضة للتوضيح */
+    color: #333; /* لون النصوص في التسميات */
+    margin-bottom: 5px; /* مسافة أسفل التسميات */
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    max-width: 500px; /* أقصى عرض للحقول */
+    padding: 12px; /* حشو للحقول */
+    margin-bottom: 15px; /* مسافة بين الحقول */
+    border: 1px solid #ddd; /* حدود خفيفة */
+    border-radius: 5px; /* زوايا مدورة للحقول */
+    font-size: 1em; /* حجم خط موحد */
+}
+
+#contact textarea {
+    height: 150px; /* ارتفاع أكبر للرسائل الطويلة */
+    resize: vertical; /* يسمح بتغيير الحجم عموديًا */
+}
+
+#contact button {
+    padding: 12px 24px; /* زيادة الحشو للزر */
+    background-color: #007BFF; /* لون خلفية الزر */
+    color: white; /* لون النص في الزر */
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* تأثير التغيير عند التمرير */
+}
+
+#contact button:hover {
+    background-color: #0056b3; /* لون الخلفية عند التمرير على الزر */
+}
+
+.contact-info {
+    margin-top: 30px; /* زيادة المسافة أعلى معلومات الاتصال */
+}
+
+.contact-info p {
+    font-size: 1.1em; /* حجم خط أكبر لمعلومات الاتصال */
+    color: #333; /* لون نص معلومات الاتصال */
+}
